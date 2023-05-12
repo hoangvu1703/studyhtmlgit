@@ -1,0 +1,156 @@
+html{
+    background-color: darksalmon;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+
+.car {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+/*form style*/
+form{
+    background-color: #ececec;
+    padding: 30px 40px;
+}
+.hidden-label{
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow:hidden;
+    visibility: hidden;
+}
+input,
+select{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    outline: none;
+}
+select{
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 10px;
+}
+input[type="email"],
+input[type="password"],
+select{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding:0 10px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #cdcdcd;
+}
+input[type="email"]:focus,
+input[type="password"]:focus{
+    border: 1px solid #869960;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0, .13);
+}
+input[type="submit"]{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: #869960;
+    color: #fff;
+    padding: 10px 0;
+    border: 1px solid #798a56;
+    border-radius: 10px;
+    outline: none;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+    border: 1px solid #535e3b;
+    background-color: #798a56
+}
+.checkbox-text {
+    font-size: 85%;
+    color: #777
+}
+
+
+header {
+    padding-top: 20px;
+    color: #617140;
+}
+header h1 {
+    margin: 0px;
+    font-weight: normal;
+    font-size: 16;
+}
+header p {
+    margin: 0px;
+}
+/* site navigation */
+.site {
+    margin-top: 20px;
+}
+
+.site ul{
+    margin: 0;
+    padding: 0;
+}
+.site li{
+    list-style: none;
+    float: left;
+}
+.site a{
+    display:block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid yellow;
+    border-bottom: none;
+}
+.site a:hover {
+    background-color: #a5d34a;
+}
+
+/* end site navigation */
+
+.content {
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+
+}
+.main-area {
+    width: 60%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 40%;
+    float: left;
+    background-color: #617140;
+    padding: 20px 40px 20px 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+}
+footer{
+    text-align: center;
+}
+.fix {
+    clear: both;
+}
+.group:before,
+.group:after{
+    content:"";
+    display:table;
+}
+
+.group:after {
+    clear: both;
+}
+.group {
+    zoom:1;
+}
