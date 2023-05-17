@@ -1,15 +1,89 @@
+/* bounce animation */
+@keyframes fadeBounce {
+    0% {
+        opacity: 0;
+        transform: translateY(-200%);
+    }
+    40% {
+     
+        transform: translateY(0);
+    }
+    55% {
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+/*end bounce animation */
 .box-a {
+    animation-name: fadeBounce;
+    animation-duration: 1s;
     background-color: lightgrey;
     padding: 30px;
     border: 3px solid black;
     margin-bottom: 30px;
     width: 200px;
     height: 150px;
-    box-sizing: border-box ;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(red, green, blue, alpha);
+    border-radius: 50%;
+    line-height: 150px;
+    
 }
 
 .box-b {
     background-color: darkorange;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    margin-bottom: 40px;
+    border-radius: 175px/100px;
+}
+.box-c {
+    background-color: rgb(211, 211, 211);
+    padding: 30px;
+    border: 3px solid black;
+    margin-bottom: 30px;
     width: 200px;
     height: 150px;
+    text-align: center;
+    line-height: 150px;
+    transform: rotate(25deg);
+}
+.box-d {
+    background-color: rgb(211, 211, 211);
+    padding: 30px;
+    border: 3px solid black;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    transform: skewX(15deg);
+}
+.box-e {
+    background-color: rgb(211, 211, 211);
+    padding: 30px;
+    border: 3px solid black;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    transform: scale(0.5); 
+}
+.box-f {
+    background-color: rgb(211, 211, 211);
+    padding: 30px;
+    border: 3px solid black;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    transform: translateY(-100px)
 }
