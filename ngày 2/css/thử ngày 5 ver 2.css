@@ -1,0 +1,109 @@
+html{
+    background-color: greenyellow
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 85%;
+}
+.container {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    background-image: url(../img_girl.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+header {
+    padding-top: 20px;
+    color: #617140;
+    background-image: url(../48db3200386d87db761cc2c51223b8cc.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+header h1 {
+    margin: 0px;
+    font-weight: normal;
+    font-size: 500%;
+    font-style: italic;
+}
+.main h2{
+    font-weight: normal;
+    font-size: 200%;
+    font-style: italic;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-shadow: 2px 10px 3px #333;
+}
+header p {
+    margin: 0px;
+}
+/* site navigation */
+.site {
+    margin-top: 20px;
+}
+
+.site ul{
+    margin: 0;
+    padding: 0;
+}
+.site li{
+    list-style: none;
+    float: left;
+}
+.site a{
+    display:block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid yellow;
+    border-bottom: none;
+    transition-property: color;
+    transition-duration: 2s;
+}
+.site a:hover{
+    background-color: #a5d34a;
+}
+
+/* end site navigation */
+.content {
+    border-top: 3px solid yellow;
+    border-bottom: 3px solid yellow;
+}
+.main {
+    width: 60%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.side {
+    width: 40%;
+    float: left;
+    background-color: #617140;
+    padding: 20px 40px 20px 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+}
+footer{
+    text-align: center;
+}
+.fix {
+    clear: both;
+}
+.group:before,
+.group:after{
+    content:"";
+    display:table;
+}
+
+.group:after {
+    clear: both;
+}
+.group {
+    zoom:1;
+}

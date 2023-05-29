@@ -1,0 +1,10 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <title>svg</title>
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <line stroke-dasharray="5,5" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="96" x2="652" y1="477" x1="312" stroke="#000" fill="none"/>
+  <path d="m302,442c0,1 0,2 0,6c0,4 0.36655,8.02249 0,11c-0.50378,4.09222 -1,7 -1,8c0,2 -0.76538,3.15225 0,5c0.5412,1.30655 0.29291,2.29291 1,3c0.70709,0.70709 0.29291,1.29291 1,2c0.70709,0.70709 1,1 1,1c1,0 1,1 1,1c0,1 0.4588,0.69345 1,2c0.38269,0.92389 0.29291,1.29291 1,2c0.70709,0.70709 0,3 0,3c1,0 0.69345,-0.4588 2,-1c0.92389,-0.38269 2.11832,0.47186 3,0c3.17892,-1.70129 8.07843,-4.78986 11,-6c4.13171,-1.71143 8.07843,-3.78986 11,-5c2.06586,-0.85571 4.29291,-1.29291 5,-2c0.70709,-0.70709 1,-2 2,-2c1,0 3,-2 5,-2l3,-1l1,-1" id="svg_2" stroke-dasharray="2,2" stroke="#000" fill="none"/>
+  <polyline stroke-linecap="round" id="svg_3" points="1080,371 1080,370 " stroke-dasharray="2,2" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="213" x2="-185" y1="214" x1="-185" stroke-dasharray="2,2" stroke="#000" fill="none"/>
+ </g>
+</svg>
