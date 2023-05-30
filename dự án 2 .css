@@ -1,0 +1,13 @@
+.find a {
+    color:#925fe8;
+}
+.find a:hover {
+    color: #ffffff;
+}
+.heroic a {
+    color: #ffffff;
+
+}
+.heroic a:hover {
+    color:#925fe8;
+}
